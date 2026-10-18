@@ -1,0 +1,16 @@
+a = input(“Enter your travel name: “)
+b = input(“Enter your Destination: “)
+c = float(input(“Enter your Transportation cost: “))
+d = float(input(“Enter your Food budget: “))
+e = float(input(“Enter your Hotel cost per night: “))
+f = float(input(“Enter your number of nights: “))
+g = float(input(“Enter your other expense: “))
+
+total_hotel = e * f
+
+total_cost = c + d + g + total_hotel
+
+print(“\nTravel Name: “, a)
+print(“Destination: “, b)
+print(“Total Hotel cost: “, total_hotel)
+print(“Total cost estimated travel cost: “, total_cost)
